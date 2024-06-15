@@ -1,0 +1,123 @@
+ public int Id { get; set; }
+        public int Date { get; set; }
+        public string Name { get; set; }
+        public string Gender { get; set; }
+        public string Address { get; set; }
+        public string MobileNo { get; set; }
+        public string Reason { get; set; }
+	
+
+
+  date: "",
+    name: "",
+    gender: "",
+    address: "",
+    mobno: "",
+    reason: "",
+
+
+      public int Id { get; set; }
+        public int Date { get; set; }
+        public int BloodGroupId { get; set; }
+        public int BloodComponentId { get; set; }
+        public int Qty { get; set; }
+        public string Organisation_Company { get; set; }
+        public string Remark { get; set; }
+remark
+organisation
+quantity
+BloodComponent
+bloodgroup
+date
+
+
+ public int Id { get; set; }
+        public string SupplyNo { get; set; }
+        public string HospitalName { get; set; }
+        public int HospitalType { get; set; }
+        public int PatientType { get; set; }
+        public int PreviousDonorNo { get; set; }
+        public int PreviousComponentId { get; set; }
+        public int NewDonorNo { get; set; }
+        public int NewComponentId { get; set; }
+        public string Reason { get; set; }
+
+
+
+"supplyno":"",
+    "hospitalname":"",
+    "hospitalType":"",
+    "patientType":"",
+    "previousDonorNo":"",
+    "previousComponent":"",
+    "newdonorNumber":"",
+    "newcomponent":"",
+    "reason":""
+
+    const { data: hospital } = useGetApi("/api/Hospital");
+  const { data: patientType } = useGetApi("/api/patientType");
+  const { data: bloodcomponents } = useGetApi("/api/bloodcomponent");
+
+
+
+  bloodComponentId
+: 
+2
+bloodComponentName
+: 
+"RBC"
+bloodGroupId
+: 
+7
+bloodGroupName
+: 
+"O+"
+discardType
+: 
+"Hemonise"
+donorno
+: 
+123
+id
+: 
+1
+qty
+: 
+12
+reason
+: 
+"Discard"
+
+
+
+ http://api2.easyblood.in/api/issue/1
+
+
+
+        let newobj
+        if(res.data.date){
+          newobj = res.data
+        }
+        else{
+          newobj = { ...res.data, date: 20230401 }
+        }
+
+
+
+...newobj
+
+
+
+ date: "",
+    donorno: "",
+    reason: "",
+    BloodComponent: "",
+    Bagtype: "",
+    bloodgroup: "",
+    // qty: "",
+    discardType: "",
+    // displayindex: "",
+    basedon: "",
+
+    BagType">Bag Type</option>
+                        <option value="Component

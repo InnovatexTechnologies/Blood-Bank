@@ -1,0 +1,6 @@
+.login-container{
+    background-image: linear-gradient(rgba(175, 96, 51, 0.29),rgba(175, 96, 51, 0.436)),url("../../assets/loginPageImg/loginImg.webp");
+    background-size: cover;
+
+    font-size: 14px;
+}
